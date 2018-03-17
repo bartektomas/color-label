@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>color-label test</title>
+
+  <script src="../../webcomponentsjs/webcomponents-loader.js"></script>
+  <script src="../../web-component-tester/browser.js"></script>
+
+  <link rel="import" href="../color-label.html">
+</head>
+
+<body>
+
+  <test-fixture id="BasicTestFixture">
+    <template>
+      <color-label>Test</color-label>
+    </template>
+  </test-fixture>
+
+  <test-fixture id="BasicAlternateTestFixture">
+    <template>
+      <color-label>Test2</color-label>
+    </template>
+  </test-fixture>
+
+  <script>
+    suite('color-label', function () {
+
+      const COLOR_TEST = 'rgb(255, 250, 179)';
+
+      test('instantiating the element with innerText applies a color', function () {
+        var element = fixture('BasicTestFixture');
+        assert.equal(element.shadowRoot.host.style.backgroundColor, COLOR_TEST);
+      });
+
+      test('instantiating the element with different innerText applies a different color', function () {
+        var element = fixture('BasicAlternateTestFixture');
+        assert.notEqual(element.shadowRoot.host.style.backgroundColor, COLOR_TEST);
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>
