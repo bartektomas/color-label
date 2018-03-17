@@ -18,7 +18,7 @@ Label with auto-generated background color based on text.
 ```
 -->
 ```html
-<color-label></color-label>
+<color-label>test</color-label>
 ```
 
 ## Install the Polymer-CLI
