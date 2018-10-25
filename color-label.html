@@ -56,13 +56,12 @@ Label with auto-generated background color based on text.
       get __css() {
         // Firefox and Chrome are clashing
         // and need :host or the actual tag-name.
-        return `                
+        return `
         :host{ ${this.__style} }
-        color-label { ${this.__style} }      
+        color-label { ${this.__style} }
       `;
       }
     }
-
-    customElements.define('color-label', ColorLabel, { extends: "label" });
+    customElements.define('color-label', ColorLabel);
   })();
 </script>
