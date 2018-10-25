@@ -2,7 +2,10 @@
   "name": "color-label",
   "description": "Label with auto-generated background color based on text.",
   "main": "color-label.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "repository": {
+    "github": "ifyoumakeit/color-label"
+  },
   "license": "MIT",
   "keywords": [
     "web-components",
