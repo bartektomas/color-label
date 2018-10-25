@@ -1,12 +1,13 @@
 {
   "name": "color-label",
   "description": "Label with auto-generated background color based on text.",
-  "main": "color-label.html",
-  "version": "0.0.2",
+  "main": "color-label.js",
+  "version": "0.0.3",
   "license": "MIT",
   "keywords": [
     "web-components",
-    "webcomponents"
+    "webcomponents",
+    "color-label"
   ],
   "directories": {
     "test": "test"
