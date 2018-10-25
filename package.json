@@ -4,7 +4,8 @@
   "main": "color-label.js",
   "version": "0.0.4",
   "repository": {
-    "github": "ifyoumakeit/color-label"
+    "type": "git",
+    "url": "git+https://github.com/ifyoumakeit/color-label.git"
   },
   "license": "MIT",
   "keywords": [
