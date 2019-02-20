@@ -2,11 +2,15 @@
   "name": "color-label",
   "description": "Label with auto-generated background color based on text.",
   "main": "color-label.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ifyoumakeit/color-label.git"
   },
+  "author": {
+    "name": "Dave Garwacke",
+    "email": "dave.garwacke@warbyparker.com"
+  },    
   "license": "MIT",
   "keywords": [
     "web-components",
